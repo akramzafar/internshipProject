@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation Tutorial</title>
+    <style>
+      .hidden-content {
+        display: none;
+      }
+      .show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="mainHeading">Our Favorite Movie Franchise</h1>
+      <ul>
+        <li class="listItems">Star Wars</li>
+        <li class="listItems">Harry Potter</li>
+        <li class="listItems">Lord of the Rings</li>
+        <li class="listItems">The Matrix</li>
+        <li class="listItems">Marvel</li>
+      </ul>
+    </div>
+    <button onclick="alert('I love JavaScript')">Click Me</button>
+
+    <div class="container">
+      <button class="reveal-btn">Reveal Content</button>
+      <div class="hidden-content boxes">
+        <p>This is the hidden content revealed after clicking the button.</p>
+      </div>
+    </div>
+
+    <ul id="sports">
+      <li id="football">Football</li>
+      <li id="basketball">Basketball</li>
+      <li id="boxing">Boxing</li>
+      <li id="tennis">Tennis</li>
+      <li id="golf">Golf</li>
+    </ul>
+    <button id="add-sport">Add Rugby</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Page Malvia",
+    "age": 29,
+    "isProgrammer": true,
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "address": {
+      "city": "Mumbai",
+      "state": "MH",
+      "country": "India"
+    }
+  },
+  {
+    "name": "Nikkei Curve",
+    "age": 30,
+    "isProgrammer": true,
+    "skills": ["JavaScript", "MongoDB", "DB2"],
+    "address": {
+      "city": "Delhi",
+      "state": "DL",
+      "country": "India"
+    }
+  },
+  {
+    "name": "Amit Duvet",
+    "age": 32,
+    "isProgrammer": false,
+    "skills": [],
+    "address": {
+      "city": "Kolkata",
+      "state": "WB",
+      "country": "India"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Example</title>
+  <style>
+    .card {
+      width: 200px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin: 10px;
+      text-align: center;
+    }
+    .dark {
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">This is a card</div>
+
+  <button id="add-dark">Add Dark Class</button>
+  <button id="remove-dark">Remove Dark Class</button>
+
+  <script >
+
+    // Select the card element
+const card = document.querySelector('.card');
+
+// Select buttons
+const addButton = document.getElementById('add-dark');
+const removeButton = document.getElementById('remove-dark');
+
+// Add the 'dark' class when the "Add Dark Class" button is clicked
+addButton.addEventListener('click', () => {
+  card.classList.add('dark');
+});
+
+// Remove the 'dark' class when the "Remove Dark Class" button is clicked
+removeButton.addEventListener('click', () => {
+  card.classList.remove('dark');
+});
+
+  </script>
+</body>
+</html>
